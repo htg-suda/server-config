@@ -3,3 +3,17 @@ server:
 spring:
   application:
     name: client01
+  profiles:
+    active: dev
+
+---
+server:
+  port: 8786
+spring:
+  profiles: dev
+
+---
+server:
+  port: 8785
+spring:
+  profiles: prod
