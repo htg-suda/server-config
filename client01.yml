@@ -1,10 +1,6 @@
-server:
-  port: 8787
 spring:
   application:
-    name: client01
-  profiles:
-    active: dev
+    name: client02
 
 ---
 server:
